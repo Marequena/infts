@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from 'redux';\nimport LineChart from './lineChart';\nimport DoughnutChart from './doughnutChart';\nimport LineInvestment from './lineInvestment';\nexport default combineReducers({\n  LineChart: LineChart,\n  DoughnutChart: DoughnutChart,\n  LineInvestment: LineInvestment\n});","map":null,"metadata":{},"sourceType":"module"}
